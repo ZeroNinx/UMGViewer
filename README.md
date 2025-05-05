@@ -25,3 +25,9 @@ You can easily edit their styles and properties on detail view when PIE. Such as
 
 #### You can also click checkbox to toggle visibility for each widget item quickly.
 <img src="https://github.com/user-attachments/assets/5e89576a-b5a2-45af-8acd-e98eac285e84" width="50%">
+
+#### Simulate Click
+Select the widget, then click "Simulate Click" button on toolBar.
+<img src="https://github.com/user-attachments/assets/f836eb82-cd4c-4f27-9577-16ffe75f75ae" width="50%">
+For buttons, their onClick event would be triggered.
+For other widgets, the onMouseButtonDown(LeftButton) and onMouseButtonUp(LeftButton) would be triggered.
